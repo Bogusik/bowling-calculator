@@ -1,0 +1,29 @@
+table {
+  width: 120px;
+  height: 90px;
+  border-left: 1px solid #98A0A9;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #F8F9FA;
+  cursor: pointer;
+}
+
+table tr {
+  height: 45px;
+}
+
+.double-frame tr td {
+  text-align: center;
+  min-width: 60px;
+}
+
+table tr td:not(:first-of-type) {
+  border: 1px solid #98A0A9;
+  border-right: none;
+  border-top: none;
+}
+
+.triple-frame tr td {
+  text-align: center;
+  min-width: 40px;
+}
